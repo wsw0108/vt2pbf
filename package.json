@@ -1,0 +1,46 @@
+{
+  "name": "vt2pbf",
+  "version": "0.1.0",
+  "description": "Convert Mapbox Vector Tiles to binary protobuf.",
+  "homepage": "https://github.com/wsw0108/vt2pbf",
+  "author": {
+    "name": "wsw0108",
+    "email": "wsw0108@gmail.com",
+    "url": "https://github.com/wsw0108"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "nsp": "^2.6.3",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "wsw0108/vt2pbf",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vt-pbf": "^3.0.0"
+  }
+}
