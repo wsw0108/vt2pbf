@@ -1,6 +1,6 @@
 {
   "name": "vt2pbf",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Convert Mapbox Vector Tiles to binary protobuf.",
   "homepage": "https://github.com/wsw0108/vt2pbf",
   "author": {
