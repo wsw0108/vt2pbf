@@ -1,6 +1,6 @@
 {
   "name": "vt2pbf",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Convert Mapbox Vector Tiles to binary protobuf.",
   "homepage": "https://github.com/wsw0108/vt2pbf",
   "author": {
@@ -13,7 +13,8 @@
   ],
   "main": "lib/index.js",
   "keywords": [
-    ""
+    "vector tile",
+    "vt-pbf"
   ],
   "devDependencies": {
     "coveralls": "^2.13.1",
@@ -43,7 +44,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "protobufjs": "^6.8.0",
     "vt-pbf": "^3.0.1"
   }
 }
